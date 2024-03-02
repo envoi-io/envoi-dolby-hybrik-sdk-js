@@ -7,7 +7,7 @@ Envoi is a cloud platform that automates creating, managing, and distributing 24
 
 This SDK provides integration between the Envoi Distribution Service and Dolby's cloud media processing service and automates the creation of 3D Stereoscopic Video (3D Video) being distributed using Apple HTTP Live Streaming (HLS). Content processed by Envoi is encoded using the Dolby Profile 20 to generates multi-bitrate MultiView HEVC (MV-HEVC) MP4 and HLS renditions. This allows Envoi to distribute streaming 3D videos compatiable for delivery experiences on the Apple Vision Pro. 
 
-Envoi supports all Hybrik API methods POST, PUT, GET, and DELETE. The API uses HTTP authentication for permitting API access, and a user-specific login call which returns an expiring token. This token needs to be passed into all API calls as part of the header.
+Envoi supports all Hybrik API methods POST, PUT, GET, and DELETE. The API uses HTTPS authentication for permitting API access, and a user-specific login call which returns an expiring token. This token needs to be passed into all API calls as part of the header.
 
 A typical API session to submit and track a transcoding job would look like this:
 
