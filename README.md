@@ -12,10 +12,12 @@ Content processed by Envoi is encoded using the Dolby Profile 20 to generates mu
 Envoi supports all Hybrik API methods POST, PUT, GET, and DELETE. The API uses HTTPS authentication for permitting API access, and a user-specific login call which returns an expiring token. This token needs to be passed into all API calls as part of the header.
 
 A typical API session to submit and track a transcoding job would look like this:
+	
+ 	Step 1 - Authenticate User (returns security token used in following calls). 
 
-Step 1 - Authenticate User (returns security token used in following calls)
-Step 2 - Create Job (submits your job in JSON format)
-Step 3 - Get Job Info (tracks status of your job)
-Step 4 - Get Job Result (complete details of your job after completion or failure)
-At the bottom of this document are downloadable samples for both JSON jobs as well as JavaScript libraries for easily incorporating the Hybrik API into your projects.
+	Step 2 - Create Job (submits your job in JSON format). 
+
+	Step 3 - Get Job Info (tracks status of your job). 
+
+	Step 4 - Get Job Result (complete details of your job after completion or failure) at the bottom of this document are downloadable samples for both JSON jobs as well as JavaScript libraries for easily incorporating the Hybrik API into your projects.
 
