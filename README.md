@@ -5,7 +5,7 @@ It provides methods and examples for interacting with the Dolby Hybrik API.
 
 Envoi is a cloud platform that automates creating, managing, and distributing 24x7, live free ad-supported streaming television "FAST", Subscription or Pay-Per-View OTT (internet delivered) channels. 
 
-This SDK provides integration between the Envoi Distribution Service and Dolby's cloud media processing service and automates the creation and secure delivery of 3D Stereoscopic Video (3D Video) to devices through the HTTP Live Streaming (HLS) protocol. Using FairPlay Streaming (FPS) content providers, encoding vendors, and delivery networks can encrypt content, securely exchange keys, and protect and deliver content via our SDKs to Immersive experiences on the Apple Vision Pro.
+This SDK provides integration between the Envoi Distribution Service and Dolby's cloud media processing service and automates the creation and secure delivery of 3D Stereoscopic Video (3D Video) to devices through the HTTP Live Streaming (HLS) protocol. Using FairPlay Streaming (FPS) content providers, encoding vendors, and delivery networks can encrypt content, securely exchange keys, and protect and deliver content via our SDKs to Immersive experiences on the Apple Vision Pro and Meta Quest.
 
 Content processed by Envoi is encoded using the Dolby Profile 20 to generates multi-bitrate MultiView HEVC (MV-HEVC) MP4 and HLS renditions.
 
